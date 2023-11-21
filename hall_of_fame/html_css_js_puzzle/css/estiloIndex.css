@@ -1,0 +1,175 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #997A66;
+    width: 850px;
+    height: 60px;
+    margin: 50px auto 30px auto;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+header img{
+    width: 120px;
+}
+h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: #f5f5f5;
+}
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    width: 300px;
+    margin: 30px auto 0px auto;
+    font-weight: 100%;
+}
+/*IDs y Classes*/
+/*Header superios*/
+#contenedorH1{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedorPts{
+    font-size: 20px;
+    font-weight: 500;
+    color: #f5f5f5;
+    width: 120px;
+    height: 120px;
+    border: 2px solid#f5f5f5;
+    border-radius: 60px;
+    background-color: #2C475C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Secciones 1 y 2*/
+.contenedorSecc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seccion2{
+    margin-bottom: 50px;
+}
+.contenedorH2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 50px 0px 50px 0px;
+    background-color: #6495B3;
+    border-radius: 10px;
+}
+.contenedorH2 h2{
+    color: #f5f5f5;
+}
+.contenedorJuegos{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.portadaCartas{
+    width: 150px;
+    border-radius: 10px;
+}
+.portadaPuzzle{
+    width: 150px;
+    border: 5px solid #997A66;
+    border-radius: 5px;
+}
+/*Descripccion de cuadros verticales*/
+.fondoAzul{
+    color: #f5f5f5;
+    background-color: #6495B3;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 300px 600px;
+    justify-content: center;
+    align-items: center;
+}
+.fondoBlanco{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 600px 300px;
+    justify-content: center;
+    align-items: center;
+}
+.imgPuzzle{
+    width: 300px;
+}
+.contenedorTexto{
+    text-align: justify;
+    padding: 50px;
+    font-size: 18px;
+}
+.contenedorTexto h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+.contenedorTexto h3{
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+/*Descripccion de cuadros horizontales*/
+.fondoAnchoAzul{
+    background-color: #6495B3;
+    color: #f5f5f5;
+}
+.contenedorTextoAncho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorTextoAncho2{
+    width: 900px;
+    text-align: justify;
+    padding: 50px;
+    font-size: 18px;
+}
+.contenedorTextoAncho2 h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+.contenedorTextoAncho2 h3{
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.contenedorImgAncha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgAncha{
+    width: 900px;
+    margin-bottom: 50px;
+}
+.imgCuadrada{
+    width: 600px;
+    margin-bottom: 50px;
+}
