@@ -1,0 +1,42 @@
+/* Desing of seccion lodging */
+#services {
+  padding: var(--standard-padding);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.subtitle {
+    font-size:var(--font-size);
+    padding: 1rem;
+    color:#fff ;
+    text-align: center;
+    background-color:var(--color-titles) ;
+}
+.container-service {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 5px 10px #000;
+  max-width: 700px;
+}
+.service-image img {
+  width: 350px;
+  height: auto;
+}
+.description-service {
+  padding: var(--standard-padding);
+}
+.description-service h3{
+  color: var(--color-titles);
+  font-size:var(--font-size);
+  padding: 1rem;
+}
+.description-service span {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+@media (max-width: 450px) {
+  .service-image img {
+    width: 250px;
+  }
+}

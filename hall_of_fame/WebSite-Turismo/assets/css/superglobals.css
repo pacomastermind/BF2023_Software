@@ -1,0 +1,83 @@
+/* Important source */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Ghotman';
+  src: url('../fonts/Gotham\ Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Declaring global variables */
+:root{
+    --background-color:#f2f2f2ff;
+    --color-secundary:#138e46;
+    --background-secundary:#e7e8eb;
+    --title-navbar:#fff;
+    --background-navbar:#1b1c1c;
+    --background-footer:#1b1c1c;
+    --background-form:#1b1c1c;
+    --color-titles:#138e46;
+    --color-text:#00172bff;
+    --color-text-secundary:#fff;
+    --font-family:'Poppins', sans-serif;
+    --font-primary:'Gotham', sans-serif;
+    --title-size: 4.6rem;
+    --subtitles-size:3rem;
+    --font-size: 1.8rem; 
+    --standard-padding:2rem 9%;
+    --first-color: hsl(82, 60%, 28%);
+    --title-color: hsl(0, 0%, 15%);
+    --text-color: hsl(0, 0%, 35%); 
+    --container-color: hsl(0, 0%, 100%); 
+    --h2-font-size: 1.25rem;
+    --small-font-size: .813rem;
+  }
+  .title-index{
+    color: var(--color-titles);
+    font-size: 3rem;
+    padding: var(--standard-padding);
+    text-align: center;
+    font-family: var(--font-primary);
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+  /* Scrool top */
+  #scroll-to-top a {
+    padding: 10px;
+    background-color: #0000009b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 1rem;
+  }
+  #scroll-to-top a:hover {
+    background-color: #0000009b;
+  }
+  .hidden {
+    display: none;
+  }
+/* Alert not event */
+.alert-not-event{ 
+  background: var(--color-secundary);
+  width: 100%;
+  padding: var(--standard-padding);
+  color:#fff;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+  @media (max-width: 450px){
+    html { 
+        font-size:50%;
+    }
+  }

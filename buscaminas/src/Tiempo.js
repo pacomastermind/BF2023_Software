@@ -1,20 +1,24 @@
 import { useState, useEffect } from 'react';
 
-export default function Tiempo(){
-
+export default function Tiempo({ejecutando}){
     const [seconds, setSeconds] = useState(0);
 
     useEffect(() => {
-        //Monta el temporizador
-        const idTemporizador = setInterval(
-            ()=>{setSeconds(seconds=>seconds+1)}
-            ,1000
-        )
-        
-        //Desmonta el Temporizador
-        return () => {
-            clearInterval(idTemporizador);
-        };
+        //BF23 comprobar si temporizador está ejecutando
+        if(ejecutando){
+            //Monta el temporizador
+            const idTemporizador = setInterval(
+                ()=>{setSeconds(seconds=>seconds+1)}
+                ,1000
+            )
+            
+            //Desmonta el Temporizador
+            return () => {
+                clearInterval(idTemporizador);
+            };
+        }else{
+            setSeconds(0)
+        }
     });
 
     return(

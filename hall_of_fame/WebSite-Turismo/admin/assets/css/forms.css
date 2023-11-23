@@ -1,0 +1,218 @@
+/* Seccion */
+#add-form { 
+    padding: 5rem;
+}
+/* request */
+.label-request{
+    color:var(--color-titles);
+    font-size: var(--font-size);
+    margin-top: 1rem;
+}
+.img-request{
+    width: 150px;
+    height: 150px;
+}
+.container-img-request{
+    display: flex;
+    justify-content: space-between;
+}
+.container-titles{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 2rem;
+}
+.container-info{
+    display: flex;
+    justify-content: space-between
+}
+/* Contenedor del crud de forms  */
+.container-form-crud{ 
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.container-form-user{
+    display: flex;
+    justify-content: center;
+}
+/* Contenedores */
+.container-form-form{ 
+    padding:var(--standard-padding);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #000;
+    max-width: 50%;
+    flex: 1
+}
+.user{
+    max-width: 90%;
+}
+.parraf{ 
+    text-align: center;
+    font-size: 1.2rem;
+}
+.container-forms-add{ 
+    padding:2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #000;
+    max-width: 50%;
+    flex: 1
+}
+.req{
+    margin-top: 3rem;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.text-error{
+    color: #ff0000;
+    text-align: center;
+    font-size: var( --font-size);
+}
+.error{
+  color: #FF0000; 
+  font-weight: bold;
+ margin-bottom: 10px; 
+ text-align: center;
+}
+
+/* Estetica titulos */
+.title-form{ 
+    font-size:2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: var(--color-secundary);
+}
+.container-form-form input , select{ 
+    color: #000;
+    font-size: var(--font-size);
+}
+.form-btn{ 
+    padding:10px 10px;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius:10px;
+    background-color: var( --color-secundary);
+    color:#fff;
+    cursor: pointer;
+    border: none;
+}
+/* Contenedores del formulario */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:2rem;
+    position: relative;
+}
+.form-group label {
+    width: 100%; 
+    font-size: var(--font-size);
+}
+
+.form-group input,textarea,select {
+    background: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-top: 20px;
+    resize: none;
+    font-size: 1.5rem;
+}
+.form-group span {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+/* Estilos de menu */
+.group-buttons{ 
+    display: flex;
+}
+.group-buttons button{ 
+   display: flex;
+   justify-content: space-between;
+   border: none;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+/* Estilos de formos agregados */
+.info-crud { 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--background-color);
+}
+.form-add{ 
+    display: flex;
+}
+.date-form-colum.id, .date-form.id{
+   max-width: 2.2rem;
+}
+.title{ 
+    max-width: 6rem;
+}
+.image{ 
+    max-width: 6rem;
+}
+.option{ 
+    max-width: 11rem;
+}
+.type{ 
+    max-width: 6rem;
+}
+.btn-flex{ 
+    display: flex;
+    justify-content: center;
+}
+
+.date-form{ 
+  flex: 1; /* Todas las columnas tienen el mismo ancho */
+  padding: 5px;
+  border: 1px solid #ccc;
+  font-weight:700;
+  color:#000;
+  font-size: 10px;
+}
+/* Botones */
+.btn{ 
+    color: #fff;
+    background-color: var(--color-secundary);
+    padding: 5px;
+    border-radius:5px;
+    border:none;
+    margin-bottom: 1rem;
+}
+.danger ,.primary { 
+    font-weight: 700;
+   
+}
+.danger{ 
+    background-color: #ff0000;
+}
+.primary{ 
+    background-color: rgb(0, 115, 255);
+}
+/* Estilos de la tabla */
+.date-form-colum{
+    flex: 1; /* Todas las columnas tienen el mismo ancho */
+    border: 1px solid #ccc;
+    text-transform: uppercase;
+    color: #000;
+    text-align:center;
+    font-size: 10px;
+}
+/* Responsive */
+@media  screen and (max-width: 1100px) {
+    .container-form-crud{ 
+        flex-direction: column;
+    }
+    .container-form-form{
+        max-width: 100%;
+    }
+    .container-forms-add{
+        max-width: 100%;
+    }
+}
